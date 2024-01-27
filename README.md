@@ -1,4 +1,4 @@
-[https://duthanhduoc.com/blog/tao-du-an-react-webpack-typescript-babel-eslint#cau-truc-thu-muc-full](# React with Webpack + Typescript + Babel + Eslint)
+[# React with Webpack + Typescript + Babel + Eslint](https://duthanhduoc.com/blog/tao-du-an-react-webpack-typescript-babel-eslint#cau-truc-thu-muc-full)
 
 ## Cấu trúc thư mục full
 
