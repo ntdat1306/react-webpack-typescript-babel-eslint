@@ -171,7 +171,6 @@ HOST=https://react.dev/
 Mục đích là chứa cấu hình ESLint
 
 ```
-/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 module.exports = {
     extends: [
@@ -210,6 +209,7 @@ module.exports = {
     rules: {
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
         // Tắt rule yêu cầu import React trong file jsx
         'react/react-in-jsx-scope': 'off',
         // Cảnh báo khi thẻ <a target='_blank'> mà không có rel="noreferrer"
@@ -353,7 +353,6 @@ Chi tiết mình có giải thích hết trong file cấu hình này, các bạn
 File cấu hình này áp dụng cho 2 môi trường là development và production luôn.
 
 ```
-/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
