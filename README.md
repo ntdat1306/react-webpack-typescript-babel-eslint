@@ -231,7 +231,6 @@ module.exports = {
         ]
     }
 };
-
 ```
 
 ### Tạo file `.eslintignore` ở thư mục root
